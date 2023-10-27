@@ -150,5 +150,6 @@ output application/json
 "Transaction Completed for Vender"]]></ee:set-payload>
             </ee:message>
         </ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="fa5eb21f-c01f-4a84-bf0b-dd048a323d7e" />
     </flow>
 </mule>
